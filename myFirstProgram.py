@@ -1,6 +1,6 @@
-import "myFirstLibrary.py"
+import myFirstLibrary
 
 print("Hello World")
-print(myFirstFunction())
+print(myFirstLibrary.myFirstFunction())
 
 print("Done!")
